@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Metodos_Pago>
+<Metodos_Pago><Metodo_ID>1</Metodo_ID><NombreMetodo>Tarjeta de crédito</NombreMetodo></Metodos_Pago><Metodos_Pago><Metodo_ID>2</Metodo_ID><NombreMetodo>Transferencia bancaria</NombreMetodo></Metodos_Pago><Metodos_Pago><Metodo_ID>3</Metodo_ID><NombreMetodo>PayPal</NombreMetodo></Metodos_Pago><Metodos_Pago><Metodo_ID>4</Metodo_ID><NombreMetodo>Efectivo</NombreMetodo></Metodos_Pago></Metodos_Pago>

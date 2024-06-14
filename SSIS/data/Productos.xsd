@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Productos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="Productos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="id" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Marca_id" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Categoria_id" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Nombre" type="xs:string" />
+              <xs:element minOccurs="0" name="Fecha_Agregado" type="xs:date" />
+              <xs:element minOccurs="0" name="Dimensiones" type="xs:string" />
+              <xs:element minOccurs="0" name="Peso" type="xs:decimal" />
+              <xs:element minOccurs="0" name="ModfiedDate" type="xs:date" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

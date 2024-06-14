@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Promociones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="Promociones">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Promocion_ID" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Nombre" type="xs:string" />
+              <xs:element minOccurs="0" name="Descripion" type="xs:string" />
+              <xs:element minOccurs="0" name="Fecha_Inicio" type="xs:date" />
+              <xs:element minOccurs="0" name="Fecha_Fin" type="xs:date" />
+              <xs:element minOccurs="0" name="Descuento" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="ModfiedDate" type="xs:date" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

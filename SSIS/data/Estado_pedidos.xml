@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Estado_pedidos>
+<Estado_pedidos><id>1</id><NombreEstado>Entregado</NombreEstado></Estado_pedidos><Estado_pedidos><id>2</id><NombreEstado>En Proceso</NombreEstado></Estado_pedidos><Estado_pedidos><id>3</id><NombreEstado>Cancelado</NombreEstado></Estado_pedidos></Estado_pedidos>

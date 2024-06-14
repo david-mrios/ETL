@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.TecnoNic"
+  DTS:DTSID="{E7602B91-47EF-4D21-9EE2-88C6D9DB8ACB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=TecnoNic;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-CargaSSIS-{E7602B91-47EF-4D21-9EE2-88C6D9DB8ACB}LocalHost.TecnoNic;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
